@@ -1,0 +1,175 @@
+.container{
+    background-color:rgb(216, 209, 183);
+    width:1200px;
+    height:900px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns:50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows:60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+}
+.neville{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+}
+.cím{
+    grid-column-start:6 ;
+    grid-column-end: 19;
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+}
+.memorial{
+    grid-column-start:19 ;
+    grid-column-end: 25;
+    grid-row-start:1 ;
+    grid-row-end:3 ; 
+}
+.harry{
+    grid-column-start:1 ;
+    grid-column-end: 10;
+    grid-row-start:3 ;
+    grid-row-end:9 ; 
+}
+.def{
+    grid-column-start:10 ;
+    grid-column-end: 20;
+    grid-row-start:3 ;
+    grid-row-end:9 ; 
+}
+.page{
+    grid-column-start:20 ;
+    grid-column-end: 25;
+    grid-row-start:3 ;
+    grid-row-end:10 ; 
+}
+.naptár{
+    grid-column-start:1 ;
+    grid-column-end: 6;
+    grid-row-start:9 ;
+    grid-row-end:16 ; 
+}
+.python{
+    grid-column-start:6 ;
+    grid-column-end: 13;
+    grid-row-start:9 ;
+    grid-row-end:15 ; 
+    width: 350px;
+}
+.roxfort{
+    grid-column-start:19 ;
+    grid-column-end: 25;
+    grid-row-start:10 ;
+    grid-row-end:12 ; 
+}
+.minerva{
+    grid-column-start:13 ;
+    grid-column-end: 25;
+    grid-row-start:13 ;
+    grid-row-end:15 ; 
+}
+.fullstory{
+    grid-column-start:6 ;
+    grid-column-end: 25;
+    grid-row-start:15 ;
+    grid-row-end:16 ; 
+}
+.snape{
+    grid-column-start:13 ;
+    grid-column-end: 19;
+    grid-row-start:9 ;
+    grid-row-end:13 ; 
+}
+@font-face{
+    font-family: "MagicsSchoolTwo";
+    src: url('MagicSchoolTwo.ttf');
+}
+.w{
+    float:left;
+}
+.f{
+    float:left;
+}
+.minervakep{
+    margin-top: -15px;
+    height: 120px;
+    float:left
+}
+.cimkep{
+    height:120px;
+    float:right;
+}
+.nevillekép{
+    float:right;
+    height:105px
+}
+.python{
+    height:360px
+}
+.harry{
+    background-color: black;
+    color:rgb(216, 209, 183);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 110px;
+}
+.harrykep{
+    float:right;
+    height:350px
+}
+.ujj2{
+    height:60px;
+}
+.neville{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: -20px;
+    position: relative;
+}
+.minerva{
+    font-size: 30px;
+    margin-top: -15px;
+}
+.fullstory{
+    margin-top: -25px;
+    text-transform: uppercase;
+    text-indent: -15px;
+    text-align: center;
+}
+.tab{
+    margin-left: 30px;
+    text-align: center;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.dec{
+    text-align: center;
+    font-size: 30px;
+}
+.true{
+    margin-top: -5px;
+    font-size: 30px;
+    text-align: center;
+}
+.hp{
+    margin-top:30px;
+}
+.name{
+    font-size: 50px;
+    text-align: center;
+}
+.severus{
+    border-top: solid 2px black;
+    font-size:25px;
+    text-align: center;
+}
+.memorial{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.page5{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
